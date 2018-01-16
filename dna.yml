@@ -1,0 +1,13 @@
+---
+  # must match the entry  point class name
+  name: "facebook_manager"
+  type: "neuron"
+  author: "Intelora Dev Team"
+
+  intelora_supported_version:
+    - 0.4
+    - 0.5
+
+  tags:
+    - "facebook"
+    - "social network"
