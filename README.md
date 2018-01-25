@@ -1,14 +1,10 @@
-# Facebook_manager
+# intelora-Facebook_manager
 
-A Intelora Neuron used to :
-- POST messages on your own wall
-- READ posts of an other wall
+A Neuron the can be use for posting messages on your own wall or reading posts from another wall
 
 ## Synopsis
 
-This neuron allows you to 
-- POST a message to your facebook wall.
-- READ a number of messages from a user_name.
+Make Intelora post a message to your facebook wall and read a number of messages from a specific [user_name] user.
 
 ## Installation
 ```bash
@@ -71,6 +67,11 @@ Each of them requires specific options, return values and synapses example :
 | action   | the action USED                            | String | POST                                                                      |
 | posts    | The list of posts on the wall              | List   | ["hi there", "this is my wall", "Check out this new intelora neuron !"]   |
 | user_name| The user name where to read message        | String | BillGates                                                                 |
+## Limitation
+
+-The Facebook Neuron has multiple available actions : POST, READ.
+Each of them requires specific options, return values and synapses example 
+-In order to be able to post on Facebook, you need to get a Facebook User access token.
 
 ##### Synapses example
 
